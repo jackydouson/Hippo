@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{495ba848-c16d-4796-8bcd-47a80dda5643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\log">
+      <UniqueIdentifier>{da2f0c32-9720-4b3b-8120-c8816dbe9a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\config">
+      <UniqueIdentifier>{aef8e74e-2a02-4af6-b8e0-f8b0b3aa7a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\db">
+      <UniqueIdentifier>{3f680049-312d-49e7-a827-51be59dbc19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\script">
+      <UniqueIdentifier>{36414cc2-1895-4ad5-8442-5024e35d56c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\network">
+      <UniqueIdentifier>{0a940301-dd82-4a82-a4d5-7ab9feebf0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\gui">
+      <UniqueIdentifier>{e2cfa562-5cea-43e1-aa8e-178d652dcb63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\shader">
+      <UniqueIdentifier>{5db53bdd-b4bc-43ad-9417-842d89c17028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\physics">
+      <UniqueIdentifier>{b987e10c-4930-453f-aa9c-7b37caeee128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\media">
+      <UniqueIdentifier>{860256ea-a28a-46e5-9205-4db45c8aafa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\platform">
+      <UniqueIdentifier>{397fbef1-86db-4749-97e7-544c4977c4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\base">
+      <UniqueIdentifier>{b15db938-0b7d-44ca-a812-6613cde597cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hiSocket.cpp">
+      <Filter>framework\network</Filter>
+    </ClCompile>
+    <ClCompile Include="hiAddress.cpp">
+      <Filter>framework\network</Filter>
+    </ClCompile>
+    <ClCompile Include="hiCheck.cpp">
+      <Filter>framework\network</Filter>
+    </ClCompile>
+    <ClCompile Include="hiBuffer.cpp">
+      <Filter>framework\network</Filter>
+    </ClCompile>
+    <ClCompile Include="hiNetwork.cpp">
+      <Filter>framework\network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hiMacros.h">
+      <Filter>framework\base</Filter>
+    </ClInclude>
+    <ClInclude Include="HiSocket.h">
+      <Filter>framework\network</Filter>
+    </ClInclude>
+    <ClInclude Include="hiAddress.h">
+      <Filter>framework\network</Filter>
+    </ClInclude>
+    <ClInclude Include="hiCheck.h">
+      <Filter>framework\network</Filter>
+    </ClInclude>
+    <ClInclude Include="hiBuffer.h">
+      <Filter>framework\network</Filter>
+    </ClInclude>
+    <ClInclude Include="hiNetwork.h">
+      <Filter>framework\network</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
